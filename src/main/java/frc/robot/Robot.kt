@@ -8,7 +8,7 @@
 package frc.robot
 
 import edu.wpi.first.wpilibj.TimedRobot
-import frc.subsystems.Drivetrain
+import frc.robot.subsystems.Drivetrain
 
 /**
  * The VM is configured to automatically run this class, and to call the
@@ -74,6 +74,6 @@ class Robot : TimedRobot() {
      * This function is called periodically during test mode.
      */
     override fun testPeriodic() {
-        
+
     }
 }

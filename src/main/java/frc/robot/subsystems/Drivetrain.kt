@@ -1,4 +1,4 @@
-package frc.subsystems
+package frc.robot.subsystems
 
 import com.ctre.phoenix.motorcontrol.ControlMode
 import com.ctre.phoenix.motorcontrol.FeedbackDevice
@@ -6,7 +6,7 @@ import frc.robot.RobotMap
 import harkerrobolib.subsystems.HSDrivetrain
 import harkerrobolib.wrappers.HSTalon
 import com.ctre.phoenix.motorcontrol.can.VictorSPX
-import frc.commands.drivetrain.ArcadeDrive
+import frc.robot.commands.drivetrain.ArcadeDrive
 
 /**
  * This class represents the drivetrain of the robot

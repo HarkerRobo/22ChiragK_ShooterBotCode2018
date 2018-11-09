@@ -1,9 +1,9 @@
-package frc.commands.drivetrain
+package frc.robot.commands.drivetrain
 
 import com.ctre.phoenix.motorcontrol.ControlMode
 import edu.wpi.first.wpilibj.command.Command
 import frc.robot.OI
-import frc.subsystems.Drivetrain
+import frc.robot.subsystems.Drivetrain
 
 class ArcadeDrive : Command() {
     override fun execute() {
