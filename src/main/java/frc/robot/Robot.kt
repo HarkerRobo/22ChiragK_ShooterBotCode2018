@@ -8,9 +8,7 @@
 package frc.robot
 
 import edu.wpi.first.wpilibj.TimedRobot
-import edu.wpi.first.wpilibj.smartdashboard.SendableChooser
-import edu.wpi.first.wpilibj.smartdashboard.SmartDashboard
-import harkerrobolib.commands.Cancel
+import frc.subsystems.Drivetrain
 
 /**
  * The VM is configured to automatically run this class, and to call the
@@ -26,6 +24,7 @@ class Robot : TimedRobot() {
      * used for any initialization code.
      */
     override fun robotInit() {
+        Drivetrain
     }
 
     /**
@@ -38,6 +37,7 @@ class Robot : TimedRobot() {
      * LiveWindow and SmartDashboard integrated updating.
      */
     override fun robotPeriodic() {
+
     }
 
     /**
@@ -53,21 +53,27 @@ class Robot : TimedRobot() {
      * SendableChooser make sure to add them to the chooser code above as well.
      */
     override fun autonomousInit() {
+
     }
 
     /**
      * This function is called periodically during autonomous.
      */
     override fun autonomousPeriodic() {
+
     }
 
     /**
      * This function is called periodically during operator control.
      */
-    override fun teleopPeriodic() {}
+    override fun teleopPeriodic() {
+
+    }
 
     /**
      * This function is called periodically during test mode.
      */
-    override fun testPeriodic() {}
+    override fun testPeriodic() {
+        
+    }
 }
